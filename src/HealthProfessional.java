@@ -5,8 +5,8 @@ public class HealthProfessional {
 
         public HealthProfessional() {
             this.ID = 0;
-            this.name = "Unknown";
-            this.specialization = "General";
+            this.name = "";
+            this.specialization = "";
         }
 
         public HealthProfessional(int ID, String name, String specialization) {
