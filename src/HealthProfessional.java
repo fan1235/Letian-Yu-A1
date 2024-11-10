@@ -3,10 +3,10 @@ public class HealthProfessional {
         private String name;
         private String specialization;
 
+
+
         public HealthProfessional() {
-            this.ID = 0;
-            this.name = "";
-            this.specialization = "";
+
         }
 
         public HealthProfessional(int ID, String name, String specialization) {
@@ -20,6 +20,27 @@ public class HealthProfessional {
             System.out.println("Name: " + name);
             System.out.println("Specialization: " + specialization);
         }
+        public int getID() {
+        return ID;
+        }
 
+        public void setID(int ID) {
+        this.ID = ID;
+        }
 
+        public String getName() {
+        return name;
+        }
+
+        public void setName(String name) {
+        this.name = name;
+        }
+
+        public String getSpecialization() {
+          return specialization;
+        }
+
+        public void setSpecialization(String specialization) {
+        this.specialization = specialization;
+        }
 }
