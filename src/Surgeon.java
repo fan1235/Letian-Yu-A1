@@ -1,21 +1,21 @@
 public class Surgeon extends HealthProfessional {
-    private String surgeriesNumber;
+    private int surgeriesNumbers;
 
     public Surgeon() {
         super();
     }
 
-    public String getSurgeriesNumber() {
-        return surgeriesNumber;
+    public int getSurgeriesNumbers() {
+        return surgeriesNumbers;
     }
 
-    public void setSurgeriesNumber(String surgeriesNumber) {
-        this.surgeriesNumber = surgeriesNumber;
+    public void setSurgeriesNumbers(int surgeriesNumbers) {
+        this.surgeriesNumbers = surgeriesNumbers;
     }
 
-    public Surgeon(int ID, String name, String specialization, String surgeriesNumber) {
+    public Surgeon(int ID, String name, String specialization, int surgeriesNumbers) {
         super(ID, name, specialization);
-        this.surgeriesNumber = surgeriesNumber;
+        this.surgeriesNumbers = surgeriesNumbers;
     }
 
     @Override
@@ -23,7 +23,7 @@ public class Surgeon extends HealthProfessional {
         System.out.println("The health professional details are:");
         super.displayInfo();
         System.out.println("Type: Surgeon");
-        System.out.println("Surgeries Number: " + surgeriesNumber);
+        System.out.println("Surgeries Numbers: " + surgeriesNumbers);
     }
 }
 
