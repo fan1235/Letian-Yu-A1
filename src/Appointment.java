@@ -50,7 +50,7 @@ public class Appointment {
         if (selectedDoctor != null) {
             selectedDoctor.displayInfo();
         } else {
-            System.out.println("No doctor assigned.");
+            System.out.println("Sorry, you haven't designated a doctor");
         }
     }
 }
