@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class AssignmentOne {
     public static void main(String[] args) {
         // Part 3 – Using classes and objects
@@ -27,5 +29,13 @@ public class AssignmentOne {
         System.out.println("------------------------------");
         surgeon3.displayInfo();
         System.out.println("------------------------------");
+
+
+        // Part 5 – Collection of appointments
+        ArrayList<Appointment> appointments = new ArrayList<>();
+        
+
     }
+
+
 }
